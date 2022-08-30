@@ -2,7 +2,7 @@
 title: Python, ML, AI and the rest.
 date: '2021-05-02'
 tags: ['python']
-draft: true
+draft: false
 summary: 'Mattis ante odio posuere velit. Suspendisse elementum ipsum augue, quis eleifend libero aliquet in. Fusce ut diam vitae est lacinia tristique. Donec finibus pellentesque ex, et ullamcorper sapien venenatis nec.'
 authors: ['zuhaib']
 ---
