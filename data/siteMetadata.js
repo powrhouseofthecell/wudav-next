@@ -1,7 +1,7 @@
 const siteMetadata = {
    title: 'Wudav Brand Stories',
    author: 'Wudav',
-   headerTitle: 'Wudav Brand Stories',
+   headerTitle: 'Wudav',
    description: 'Building brands',
    language: 'en-us',
    theme: 'system', // system, dark or light
