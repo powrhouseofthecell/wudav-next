@@ -7,7 +7,7 @@ const siteMetadata = {
    theme: 'system', // system, dark or light
    siteUrl: 'wudav.vercel.app',
    siteRepo: 'https://github.com/powrhouseofthecell/wudav-next',
-   siteLogo: '/static/images/logo.jpg',
+   siteLogo: '/static/images/logoo.jpg',
    image: '/static/images/avatar.png',
    socialBanner: '/static/images/twitter-card.png',
    email: 'work@wudav.com',
