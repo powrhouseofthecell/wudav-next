@@ -7,25 +7,18 @@ summary: 'Mattis ante odio posuere velit. Suspendisse elementum ipsum augue, qui
 authors: ['zuhaib']
 ---
 
-# Nested Routes
+# Lorem Ipsum
 
-The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## How
+## Posuere ac ut consequat
 
-Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
+Posuere ac ut consequat semper viverra nam. Scelerisque viverra mauris in aliquam sem fringilla. Nulla facilisi etiam dignissim diam quis enim lobortis. Eget nunc lobortis mattis aliquam faucibus purus. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Eu sem integer vitae justo. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
 
-We use Next.js catch all routes to handle the routing and path creations.
+## Eu consequat
 
-## Use Cases
+Eu consequat ac felis donec et. Fermentum leo vel orci porta non. Malesuada nunc vel risus commodo viverra maecenas. Lacus luctus accumsan tortor posuere ac ut consequat semper. Amet facilisis magna etiam tempor orci eu lobortis. Eleifend donec pretium vulputate sapien nec sagittis. Lectus vestibulum mattis ullamcorper velit sed. Iaculis urna id volutpat lacus laoreet non. Vel risus commodo viverra maecenas accumsan. Magna ac placerat vestibulum lectus mauris ultrices eros in.
 
-Here are some reasons to use nested routes
+## Vivamus
 
--  More logical content organisation (blogs will still be displayed based on the created date)
--  Multi-part posts
--  Different sub-routes for each author
--  Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
-
-## Note
-
--  The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
+Vivamus at augue eget arcu dictum varius. Id neque aliquam vestibulum morbi blandit. Adipiscing commodo elit at imperdiet. Mi bibendum neque egestas congue quisque. Feugiat vivamus at augue eget arcu dictum varius. Dolor sit amet consectetur adipiscing elit ut aliquam purus sit. Eu scelerisque felis imperdiet proin fermentum. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. In dictum non consectetur a erat nam at lectus urna.
