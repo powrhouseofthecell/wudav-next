@@ -1,6 +1,7 @@
 ---
 name: Zuhaib
-avatar: /static/images/zuhaib.png
+avatar: /static/images/avatar.png
+# avatar: /static/images/zuhaib.png
 occupation: Full Stack Web Developer
 company: Wudav Brand Stories
 twitter: https://twitter.com/shahzuhaib_

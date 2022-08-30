@@ -4,7 +4,7 @@ date: '2022-02-02'
 tags: ['digital marketing']
 draft: false
 summary: Digital marketing has reached altogether a new level by digging behind the old, traditional way of doing business. It has became a standard tool for businesses to grow not only locally but worldwide.
-author: [default]
+authors: ['aroosa']
 ---
 
 > With the advent of internet and now social media, the way to do
