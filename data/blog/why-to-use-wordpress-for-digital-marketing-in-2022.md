@@ -3,7 +3,7 @@ title: Why to use Wordpress for Digital Marketing in 2022 ?
 date: '2022-02-08'
 tags: ['wordpress', 'web development']
 draft: false
-summary: 'Vivamus bibendum, nibh vitae pellentesque imperdiet, massa est iaculis augue, et mattis ante odio posuere velit. Suspendisse elementum ipsum augue, quis eleifend libero aliquet in. Fusce ut diam vitae est lacinia tristique. Donec finibus pellentesque ex, et ullamcorper sapien venenatis nec.'
+summary: 'Having a Business Website is one of the most important factor in your Digital Marketing Strategy because it not only establishes the credibility but also improves the online presence of your business.'
 ---
 
 Having a Business Website is one of the most important factor in your Digital Marketing Strategy because it not only establishes the credibility but also improves the online presence of your business.
