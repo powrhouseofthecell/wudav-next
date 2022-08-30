@@ -103,7 +103,7 @@
 import Home from '../components/Home'
 
 const Index = () => {
-  return <Home />
+   return <Home />
 }
 
 export default Home
