@@ -11,7 +11,7 @@ const Contact = () => {
                alt="Contact Image"
                src={imageSrc}
             />
-            <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 ">
+            <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                Contact Wudav
             </h1>
             <div className="flex text-left ">
