@@ -3,6 +3,7 @@ const headerNavLinks = [
    { href: '/tags', title: 'Tags' },
    { href: '/work', title: 'Work' },
    { href: '/about', title: 'About' },
-]
+   { href: '/contact', title: 'Contact' },
+];
 
-export default headerNavLinks
+export default headerNavLinks;

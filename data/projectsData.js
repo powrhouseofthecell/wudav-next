@@ -115,6 +115,6 @@ const projectsData = [
       imgSrc: '/static/images/work/enmagic.jpg',
       href: '/work/Enmagic',
    },
-]
+];
 
-export default projectsData
+export default projectsData;
