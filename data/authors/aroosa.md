@@ -3,7 +3,7 @@ name: Aroosa
 avatar: /static/images/avatar.png
 occupation: Occupation
 company: Wudav Brand Stories
-twitter: https://www.linkedin.com/in/aroosa-javaid-89783922b/
-linkedin: https://www.linkedin.com
-github: https://github.com
+linkedin: https://www.linkedin.com/aroosa_lin
+twitter: https://twitter.com/aroosa_tw
+github: https://github.com/aroosa_git
 ---

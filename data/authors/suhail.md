@@ -3,7 +3,7 @@ name: Suhail A Shah
 avatar: /static/images/avatar.png
 occupation: Content Writter
 company: Wudav Brand Stories
-twitter: https://twitter.com/
-linkedin: https://www.linkedin.com/
-github: https://github.com/
+twitter: https://twitter.com/suhail_tw
+linkedin: https://www.linkedin.com/suhail_lin
+github: https://github.com/suhail_git
 ---
