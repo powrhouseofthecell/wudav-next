@@ -1,4 +1,13 @@
+import Head from 'next/head';
+
 const Expertise = () => {
-   return <h1>Expertise Page</h1>;
+   return (
+      <>
+         <Head>
+            <title>Expertise - Wudav</title>
+         </Head>
+         <h1>Expertise Page</h1>
+      </>
+   );
 };
 export default Expertise;
