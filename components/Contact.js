@@ -1,8 +1,13 @@
 import Image from 'next/image';
+import Head from 'next/head';
+
 const Contact = () => {
    const imageSrc = '/static/images/contactus.png';
    return (
       <>
+         <Head>
+            <title>Contact - Wudav</title>
+         </Head>
          <div>
             <Image
                layout="intrinsic"

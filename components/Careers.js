@@ -1,8 +1,13 @@
 import Image from 'next/image';
+import Head from 'next/head';
+
 const Careers = () => {
    const imageSrc = '/static/images/careers.png';
    return (
       <>
+         <Head>
+            <title>Career - Wudav</title>
+         </Head>
          <Image layout="intrinsic" width={1100} height={300} alt="Contact Image" src={imageSrc} />
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Work with Wudav
