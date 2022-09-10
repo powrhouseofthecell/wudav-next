@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 
+import Work from '@/components/Work';
 import projectsData from '@/data/projectsData';
 
 const Client = () => {
@@ -9,12 +9,14 @@ const Client = () => {
 
    const imgSource = `/static/images/work/${clientName}.jpg`;
    // console.log(projectsData.fullDetails);
+   const filteredArray = projectsData.filter((project) => {
+      return project.id === clientName;
+   });
 
    return (
       <>
-         <h1 className="">{clientName}</h1>
-         <Image alt="Client Image" className="" width={1200} height={500} src={imgSource} />
-         <p>{projectsData.fullDetails}</p>
+         {console.log(filteredArray[0])}
+         <Work clientName={clientName} imgSource={imgSource} filteredArray={filteredArray} />
       </>
    );
 };
