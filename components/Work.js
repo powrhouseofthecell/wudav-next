@@ -12,8 +12,8 @@ const Work = ({
             {filteredArray[0].title}
          </h1>
          <Image alt="Client Image" className="" width={1300} height={500} src={imgSourceHead} />
-         <Image alt="Client Image" className="" width={1300} height={600} src={imgSourceSection2} />
-         <Image alt="Client Image" className="" width={1300} height={600} src={imgSourceSection3} />
+         <Image alt="Client Image" className="" width={1300} height={500} src={imgSourceSection2} />
+         <Image alt="Client Image" className="" width={1300} height={500} src={imgSourceSection3} />
 
          <h2 className="mt-12 text-xl font-bold">{filteredArray[0].description}</h2>
          <p className="mt-6">{filteredArray[0].fullDetails}</p>
