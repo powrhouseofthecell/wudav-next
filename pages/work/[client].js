@@ -11,13 +11,14 @@ const Client = () => {
    const imgSourceHead = `/static/clients/${clientName}/img1.jpg`;
    const imgSourceSection2 = `/static/clients/${clientName}/img2.jpg`;
    const imgSourceSection3 = `/static/clients/${clientName}/img3.jpg`;
-
+   // console.log(projectsData.fullDetails);
    const filteredArray = projectsData.filter((project) => {
       return project.id === clientName;
    });
 
    return (
       <>
+         {/* {console.log(filteredArray[0])} */}
          <Head>
             <title>{filteredArray[0].title} - Wudav</title>
          </Head>
