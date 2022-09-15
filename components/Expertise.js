@@ -6,7 +6,7 @@ const Expertise = () => {
          <Head>
             <title>Expertise - Wudav</title>
          </Head>
-         <h1>Expertise Page</h1>
+         <h1 className="mt-36 text-center text-3xl">Expertise Page</h1>
       </>
    );
 };

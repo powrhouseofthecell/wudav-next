@@ -100,10 +100,10 @@
 //   )
 // }
 
-import Home from '../components/Home';
+import Home from '@/components/Home';
 
 const Index = () => {
    return <Home />;
 };
 
-export default Home;
+export default Index;

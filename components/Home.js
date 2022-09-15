@@ -1,4 +1,3 @@
-import styles from '../css/Home.module.css';
 import Head from 'next/head';
 const Home = () => {
    return (
@@ -6,7 +5,7 @@ const Home = () => {
          <Head>
             <title>Home - Wudav</title>
          </Head>
-         <h1 className={styles.center}>Hello Wudav</h1>
+         <h1 className="mt-36 text-center text-3xl">Hello Wudav</h1>
       </>
    );
 };

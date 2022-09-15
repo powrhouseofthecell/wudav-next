@@ -1,4 +1,4 @@
-import Expertise from '../components/Expertise';
+import Expertise from '@/components/Expertise';
 
 const expertise = () => {
    return <Expertise />;
