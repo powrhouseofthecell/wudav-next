@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import siteMetadata from '@/data/siteMetadata';
+import styles from '../css/general.module.css';
 
 const Careers = () => {
    const imageSrc = '/static/images/careers.png';
@@ -10,7 +12,7 @@ const Careers = () => {
          </Head>
          <Image layout="intrinsic" width={1100} height={300} alt="Contact Image" src={imageSrc} />
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Work with Wudav
+            <span className={styles.animateGradientText}>Work with Wudav</span>
          </h1>
          <div className="ml-auto mr-auto w-9/12">
             <p>
@@ -26,7 +28,12 @@ const Careers = () => {
 
             <p>We also offer internships to students interested in communications and marketing.</p>
 
-            <p>Share a letter with us at hr@wudav.com</p>
+            <p>
+               Share a letter with us at{' '}
+               <a className={styles.link} mailto="hr@wudav.com">
+                  hr@wudav.com
+               </a>
+            </p>
          </div>
       </>
    );

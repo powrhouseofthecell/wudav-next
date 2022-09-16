@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import styles from '../css/general.module.css';
 
 const Contact = () => {
    const imageSrc = '/static/images/contactus.png';
@@ -17,7 +18,7 @@ const Contact = () => {
                src={imageSrc}
             />
             <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-               Contact Wudav
+               <span className={styles.animateGradientText}>Contact Wudav</span>
             </h1>
             <div className="flex text-left ">
                <div className="container-left mx-auto">
@@ -30,17 +31,17 @@ const Contact = () => {
                   <p> Anantnag, Jammu and Kashmir </p>
                   <p className="my-1">
                      <a className="font-bold" href="mailto:info@wudav.com">
-                        info@wudav.com
+                        <span className={styles.link}>info@wudav.com</span>
                      </a>{' '}
                   </p>
                   <p className="my-1">
-                     <a href="tel:+91-1932-358-653" className="font-bold">
-                        +91-1932-358-653
+                     <a href="tel:+91-1932-358-653" className="mt-16 font-bold">
+                        <span className={styles.link}>+91-1932-358-653</span>
                      </a>
                   </p>
                   <p className="my-1">
                      <a href="tel:+91-9622-888-804" className="font-bold">
-                        +91-9622-888-804
+                        <span className={styles.link}>+91-9622-888-804</span>
                      </a>
                   </p>
                </div>
