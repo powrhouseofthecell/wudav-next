@@ -8,7 +8,7 @@ const Careers = () => {
    return (
       <>
          <Head>
-            <title>Career - Wudav</title>
+            <title>Career - Wudav Brand Stories</title>
          </Head>
          <Image layout="intrinsic" width={1100} height={300} alt="Contact Image" src={imageSrc} />
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -30,7 +30,7 @@ const Careers = () => {
 
             <p>
                Share a letter with us at{' '}
-               <a className={styles.link} mailto="hr@wudav.com">
+               <a className={styles.link} href="mailto:hr@wudav.com">
                   hr@wudav.com
                </a>
             </p>
