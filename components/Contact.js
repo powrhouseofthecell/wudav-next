@@ -1,14 +1,16 @@
 import Image from 'next/image';
-import Head from 'next/head';
 import styles from '../css/general.module.css';
+import { PageSEO } from '@/components/SEO';
+import siteMetadata from '@/data/siteMetadata';
 
 const Contact = () => {
    const imageSrc = '/static/images/contactus.png';
    return (
       <>
-         <Head>
-            <title>Contact - Wudav Brand Stories</title>
-         </Head>
+         <PageSEO
+            title={`Contact - ${siteMetadata.title}`}
+            description={siteMetadata.description}
+         />
          <div>
             <Image
                layout="intrinsic"

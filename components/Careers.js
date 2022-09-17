@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Head from 'next/head';
+import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import styles from '../css/general.module.css';
 
@@ -7,9 +7,10 @@ const Careers = () => {
    const imageSrc = '/static/images/careers.png';
    return (
       <>
-         <Head>
-            <title>Career - Wudav Brand Stories</title>
-         </Head>
+         <PageSEO
+            title={`Careers - ${siteMetadata.title}`}
+            description={`${siteMetadata.title} blogs about`}
+         />
          <Image layout="intrinsic" width={1100} height={300} alt="Contact Image" src={imageSrc} />
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             <span className={styles.animateGradientText}>Work with Wudav</span>

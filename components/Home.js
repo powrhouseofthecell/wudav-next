@@ -1,10 +1,10 @@
-import Head from 'next/head';
+import { PageSEO } from '@/components/SEO';
+import siteMetadata from '@/data/siteMetadata';
+
 const Home = () => {
    return (
       <>
-         <Head>
-            <title>Wudav Brand Stories</title>
-         </Head>
+         <PageSEO title={`Home - ${siteMetadata.title}`} description={siteMetadata.description} />
          <h1 className="mt-36 text-center text-3xl">Hello Wudav</h1>
       </>
    );
