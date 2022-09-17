@@ -5,14 +5,14 @@ import { BlogSEO } from '@/components/SEO';
 import Image from '@/components/Image';
 import Tag from '@/components/Tag';
 import siteMetadata from '@/data/siteMetadata';
-import Comments from '@/components/comments';
 import ScrollTopAndComment from '@/components/ScrollTopAndComment';
+// import Comments from '@/components/comments';
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;
-const discussUrl = (slug) =>
-   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `${siteMetadata.siteUrl}/blog/${slug}`
-   )}`;
+// const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;
+// const discussUrl = (slug) =>
+//    `https://mobile.twitter.com/search?q=${encodeURIComponent(
+//       `${siteMetadata.siteUrl}/blog/${slug}`
+//    )}`;
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
@@ -75,6 +75,18 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                                     </dd>
                                     <dt className="sr-only">Twitter</dt>
                                     <dd>
+                                       {author.linkedin && (
+                                          <Link
+                                             href={author.linkedin}
+                                             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                          >
+                                             {author.linkedin.replace(
+                                                'https://www.linkedin.com/',
+                                                ''
+                                             )}
+                                          </Link>
+                                       )}
+                                       <br />
                                        {author.twitter && (
                                           <Link
                                              href={author.twitter}
