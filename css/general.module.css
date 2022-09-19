@@ -31,7 +31,7 @@
 }
 /* ? Link hover effect - END */
 
-/* * Gradient Animations on Text - START */
+/* ! Gradient Animations on Text - START */
 
 .animateGradientText {
    background-image: linear-gradient(120deg, #ffffff, #000000, #ffffff, #ffffff);
@@ -54,4 +54,4 @@
    }
 }
 
-/* * Gradient Animations on Text - END */
+/* ! Gradient Animations on Text - END */
