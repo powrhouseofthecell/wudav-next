@@ -2,8 +2,6 @@
 
 # Wudav Website - Nextjs Tailwind Framer-Motion
 
-test
-
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
 
 This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) website. Feature-rich Next.js markdown blogging.
