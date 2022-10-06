@@ -10,12 +10,13 @@ const Work = ({
    // clientDescription,
    // clientFullDetails,
 }) => {
-   const fetchedClient = projectsData.find((project) => project.id === clientQueryName);
-   console.log(fetchedClient);
+   // const fetchedClient = projectsData.find((project) => project.id === clientQueryName);
+   // console.log(fetchedClient);
    return (
       <>
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            {fetchedClient.title}
+            {'Client Name'}
+            {/* {fetchedClient.title} */}
          </h1>
          <Image alt="Client Image" className="" width={1300} height={500} src={imgSourceHead} />
          <Image alt="Client Image" className="" width={1300} height={500} src={imgSourceSection2} />
