@@ -15,7 +15,6 @@
    right: 0px;
    width: 0px;
    bottom: -2px;
-   /* background: #ff3f6a; */
    background: #515151;
    height: 2px;
    transition-property: width;
@@ -55,3 +54,8 @@
 }
 
 /* ! Gradient Animations on Text - END */
+
+/* !Home page hero */
+.hero {
+   height: 85vh;
+}
