@@ -1,5 +1,3 @@
-<!--  -->
-
 ![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
 
 # Wudav Website - Nextjs Tailwind Framer-Motion
