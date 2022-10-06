@@ -1,4 +1,4 @@
-/* ? Link hover effect - START */
+/* ! Link hover effect - START */
 .link {
    text-decoration: none;
    position: relative;
@@ -28,7 +28,7 @@
    right: auto;
    width: 100%;
 }
-/* ? Link hover effect - END */
+/* ! Link hover effect - END */
 
 /* ! Gradient Animations on Text - START */
 
