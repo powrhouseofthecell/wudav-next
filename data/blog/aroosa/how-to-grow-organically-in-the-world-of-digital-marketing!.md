@@ -1,7 +1,7 @@
 ---
 title: How to grow organically in the world of digital marketing!
 date: '2022-02-02'
-tags: ['digital marketing']
+tags: ['digital marketing', 'aroosa']
 draft: false
 summary: Digital marketing has reached altogether a new level by digging behind the old, traditional way of doing business. It has became a standard tool for businesses to grow not only locally but worldwide.
 authors: ['aroosa']
