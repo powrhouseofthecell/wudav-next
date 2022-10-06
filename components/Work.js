@@ -2,13 +2,13 @@ import Image from 'next/image';
 import projectsData from '@/data/projectsData';
 
 const Work = ({
+   // clientTitle,
+   // clientDescription,
+   // clientFullDetails,
    imgSourceHead,
    imgSourceSection2,
    imgSourceSection3,
    clientQueryName,
-   // clientTitle,
-   // clientDescription,
-   // clientFullDetails,
 }) => {
    const fetchedClient = projectsData.find((project) => project.id === clientQueryName);
    console.log(fetchedClient);
