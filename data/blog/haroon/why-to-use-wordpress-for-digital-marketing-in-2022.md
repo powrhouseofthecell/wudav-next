@@ -1,7 +1,7 @@
 ---
 title: Why to use Wordpress for Digital Marketing in 2022 ?
 date: '2022-02-08'
-tags: ['wordpress', 'web development']
+tags: ['wordpress', 'web development', 'haroon']
 draft: false
 summary: 'Having a Business Website is one of the most important factor in your Digital Marketing Strategy because it not only establishes the credibility but also improves the online presence of your business.'
 authors: ['haroon']
