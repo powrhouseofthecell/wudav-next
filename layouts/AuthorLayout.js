@@ -1,7 +1,6 @@
 import SocialIcon from '@/components/social-icons';
 import Image from '@/components/Image';
 import { PageSEO } from '@/components/SEO';
-
 import styles from '../css/general.module.css';
 
 export default function AuthorLayout({ children, frontMatter }) {
