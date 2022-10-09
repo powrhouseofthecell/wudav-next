@@ -4,17 +4,17 @@
 // const prettier = import('prettier');
 // const siteMetadata = import('../data/siteMetadata');
 
-const fs = require('fs');
-const globby = require('globby');
-const matter = require('gray-matter');
-const prettier = require('prettier');
-const siteMetadata = require('../data/siteMetadata');
+// const fs = require('fs');
+// const globby = require('globby');
+// const matter = require('gray-matter');
+// const prettier = require('prettier');
+// const siteMetadata = require('../data/siteMetadata');
 
-// import fs from 'fs';
-// import globby from 'globby';
-// import matter from 'gray-matter';
-// import prettier from 'prettier';
-// import siteMetadata from '@/data/siteMetadata';
+import fs from 'fs';
+import globby from 'globby';
+import matter from 'gray-matter';
+import prettier from 'prettier';
+import siteMetadata from '@/data/siteMetadata';
 
 (async () => {
    const prettierConfig = await prettier.resolveConfig('./.prettierrc.js');
