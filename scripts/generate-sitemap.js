@@ -1,79 +1,67 @@
-// const fs = import('fs');
-// const globby = import('globby');
-// const matter = import('gray-matter');
-// const prettier = import('prettier');
-// const siteMetadata = import('../data/siteMetadata');
-
-// const fs = require('fs');
 // const globby = require('globby');
+// const fs = require('fs');
 // const matter = require('gray-matter');
 // const prettier = require('prettier');
 // const siteMetadata = require('../data/siteMetadata');
 
-import fs from 'fs';
-import globby from 'globby';
-import matter from 'gray-matter';
-import prettier from 'prettier';
-import siteMetadata from '@/data/siteMetadata';
+// (async () => {
+//    const prettierConfig = prettier.resolveConfig('./.prettierrc.js');
+//    const pages = await globby([
+//       'pages/*.js',
+//       'pages/*.tsx',
+//       'data/blog/**/*.mdx',
+//       'data/blog/**/*.md',
+//       'public/tags/**/*.xml',
+//       '!pages/_*.js',
+//       '!pages/_*.tsx',
+//       '!pages/api',
+//    ]);
 
-(async () => {
-   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js');
-   const pages = await globby([
-      'pages/*.js',
-      'pages/*.tsx',
-      'data/blog/**/*.mdx',
-      'data/blog/**/*.md',
-      'public/tags/**/*.xml',
-      '!pages/_*.js',
-      '!pages/_*.tsx',
-      '!pages/api',
-   ]);
+//    const sitemap = `
+//         <?xml version="1.0" encoding="UTF-8"?>
+//         <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+//             ${pages
+//                .map((page) => {
+//                   // Exclude drafts from the sitemap
+//                   if (page.search('.md') >= 1 && fs.existsSync(page)) {
+//                      const source = fs.readFileSync(page, 'utf8');
+//                      const fm = matter(source);
+//                      if (fm.data.draft) {
+//                         return;
+//                      }
+//                      if (fm.data.canonicalUrl) {
+//                         return;
+//                      }
+//                   }
+//                   const path = page
+//                      .replace('pages/', '/')
+//                      .replace('data/blog', '/blog')
+//                      .replace('public/', '/')
+//                      .replace('.js', '')
+//                      .replace('.tsx', '')
+//                      .replace('.mdx', '')
+//                      .replace('.md', '')
+//                      .replace('/feed.xml', '');
+//                   const route = path === '/index' ? '' : path;
 
-   const sitemap = `
-        <?xml version="1.0" encoding="UTF-8"?>
-        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            ${pages
-               .map((page) => {
-                  // Exclude drafts from the sitemap
-                  if (page.search('.md') >= 1 && fs.existsSync(page)) {
-                     const source = fs.readFileSync(page, 'utf8');
-                     const fm = matter(source);
-                     if (fm.data.draft) {
-                        return;
-                     }
-                     if (fm.data.canonicalUrl) {
-                        return;
-                     }
-                  }
-                  const path = page
-                     .replace('pages/', '/')
-                     .replace('data/blog', '/blog')
-                     .replace('public/', '/')
-                     .replace('.js', '')
-                     .replace('.tsx', '')
-                     .replace('.mdx', '')
-                     .replace('.md', '')
-                     .replace('/feed.xml', '');
-                  const route = path === '/index' ? '' : path;
+//                   if (page.search('pages/404.') > -1 || page.search(`pages/blog/[...slug].`) > -1) {
+//                      return;
+//                   }
+//                   return `
+//                         <url>
+//                             <loc>${siteMetadata.siteUrl}${route}</loc>
+//                         </url>
+//                     `;
+//                })
+//                .join('')}
+//         </urlset>
+//     `;
 
-                  if (page.search('pages/404.') > -1 || page.search(`pages/blog/[...slug].`) > -1) {
-                     return;
-                  }
-                  return `
-                        <url>
-                            <loc>${siteMetadata.siteUrl}${route}</loc>
-                        </url>
-                    `;
-               })
-               .join('')}
-        </urlset>
-    `;
+//    const formatted = prettier.format(sitemap, {
+//       ...prettierConfig,
+//       parser: 'html',
+//    });
 
-   const formatted = prettier.format(sitemap, {
-      ...prettierConfig,
-      parser: 'html',
-   });
-
-   // eslint-disable-next-line no-sync
-   fs.writeFileSync('public/sitemap.xml', formatted);
-})();
+//    // eslint-disable-next-line no-sync
+//    fs.writeFileSync('public/sitemap.xml', formatted);
+// })();
