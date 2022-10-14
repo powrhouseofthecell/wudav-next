@@ -1,51 +1,51 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-import Work from '../../components/Work';
+import Client from '@/components/Client';
+import projectsData from '@/data/projectsData';
 
-const Client = () => {
+const ClientPage = () => {
    const router = useRouter();
    const clientQueryName = router.query.client;
-   const imgSourceHead = `/static/clients/${clientQueryName}/img1.jpg`;
-   const imgSourceSection2 = `/static/clients/${clientQueryName}/img2.jpg`;
-   const imgSourceSection3 = `/static/clients/${clientQueryName}/img3.jpg`;
-   // const fetchedClient = projectsData.find((project) => project.id === clientQueryName);
-   // console.log(fetchedClient.index);
+   const img1 = `/static/clients/${clientQueryName}/img1.jpg`;
+   const img2 = `/static/clients/${clientQueryName}/img2.jpg`;
+   const img3 = `/static/clients/${clientQueryName}/img3.jpg`;
 
-   // console.log(clientQueryName);
-   // let fetchedClientLink;
-   // projectsData.filter((client) => {
-   //    if (client.id === clientQueryName) {
-   //       fetchedClientLink = client;
-   //    }
-   // });
-   // console.log(fetchedClientLink);
-
-   // const clientIndex = fetchedClient.index;
-   // const client = projectsData[clientIndex];
-   // console.log(client);
-   // const clientTitle = client.title;
-   // const clientDescription = client.description;
-   // const clientFullDetails = client.fullDetails;
+   // !
+   let client;
+   projectsData.map((projectData) => {
+      if (projectData.id === clientQueryName) {
+         client = projectData;
+      }
+   });
+   console.log(client);
+   // !
    return (
       <>
-         {/* {console.log(filteredArray[0])} */}
-         <Head>{/* <title>{filteredArray[0].title} - Wudav</title> */}</Head>
-         <Work
-            // clientTitle={clientTitle}
-            // clientDescription={clientDescription}
-            // clientFullDetails={clientFullDetails}
-            // ! Static version below.
-            // clientTitle={'[Client Name]'}
-            // clientDescription={'[Description]'}
-            // clientFullDetails={'[Full Details]'}
-            imgSourceHead={imgSourceHead}
-            imgSourceSection2={imgSourceSection2}
-            imgSourceSection3={imgSourceSection3}
-            clientQueryName={clientQueryName}
-         />
+         <Head>{client.title}</Head>
+         {/* <Client img1={img1} img2={img2} img3={img3} /> */}
       </>
    );
 };
 
-export default Client;
+// export async function getStaticPaths() {
+//    const paths = projectsData.map((projectData) => {
+//       return {
+//          params: { client: projectData.id },
+//       };
+//    });
+//    return {
+//       paths,
+//       fallback: false,
+//    };
+// }
+
+// export async function getStaticProps({ params }) {
+//    const clientQueryName = params.client;
+//    const client = projectsData.map((projectData) => {
+//       return projectData.id === clientQueryName;
+//    });
+//    return { props: { client } };
+// }
+
+export default ClientPage;
