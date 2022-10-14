@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Head from 'next/head';
+// import Head from 'next/head';
 
 import Client from '@/components/Client';
 import projectsData from '@/data/projectsData';
