@@ -1,3 +1,8 @@
+/* !Home page hero */
+.hero {
+   height: 85vh;
+}
+
 /* ? Link hover effect - START */
 .link {
    text-decoration: none;
@@ -54,8 +59,3 @@
 }
 
 /* ! Gradient Animations on Text - END */
-
-/* !Home page hero */
-.hero {
-   height: 85vh;
-}
