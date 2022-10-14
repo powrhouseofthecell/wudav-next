@@ -22,7 +22,7 @@ const ClientPage = () => {
    // !
    return (
       <>
-         <Head>{client.title}</Head>
+         {/* <Head>{client.title}</Head> */}
          {/* <Client img1={img1} img2={img2} img3={img3} /> */}
       </>
    );
