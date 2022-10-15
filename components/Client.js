@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { PageSEO } from '@/components/SEO';
 
 const Client = (fetchedClient) => {
    const { ...badCodeClient } = fetchedClient.fetchedClient.fetchedClient;
@@ -7,9 +8,10 @@ const Client = (fetchedClient) => {
 
    return (
       <>
-         <Head>
-            <title>Work - {badCodeClientRefactor.title}</title>
-         </Head>
+         <PageSEO
+            title={`Work - ${badCodeClientRefactor.title}`}
+            description={`${badCodeClientRefactor.description}`}
+         />
          <h1 className="mb-6 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {badCodeClientRefactor.title}
          </h1>
