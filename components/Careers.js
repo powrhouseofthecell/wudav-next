@@ -31,7 +31,7 @@ const Careers = () => {
 
             <p>
                Share a letter with us at{' '}
-               <a className={styles.link} href="mailto:hr@wudav.com">
+               <a className={`font-bold ${styles.link}`} href="mailto:hr@wudav.com">
                   hr@wudav.com
                </a>
             </p>
