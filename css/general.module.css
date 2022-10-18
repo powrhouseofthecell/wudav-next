@@ -59,3 +59,25 @@
 }
 
 /* ! Gradient Animations on Text - END */
+
+/* !  Client Section Homepage */
+.gridWrapper {
+   /* --auto-grid-min-size: 16rem; */
+   --auto-grid-min-size: 12rem;
+   display: grid;
+   grid-gap: 2rem;
+   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.gridWrapper li {
+   list-style-type: none;
+   text-align: center;
+}
+.mainContainer {
+   margin: 0 auto;
+   max-width: 1170px;
+   padding: 2rem 1rem;
+}
+/* !  Client Section Homepage End */
