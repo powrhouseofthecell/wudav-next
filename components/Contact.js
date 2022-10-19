@@ -4,7 +4,7 @@ import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 
 const Contact = () => {
-   const imageSrc = '/static/images/contactus.png';
+   const imageSrc = '/static/images/contactus.svg';
    return (
       <>
          <PageSEO
