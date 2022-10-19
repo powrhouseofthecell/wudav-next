@@ -2,8 +2,9 @@
 .hero {
    height: 85vh;
 }
+/* !Home page hero End*/
 
-/* ? Link hover effect - START */
+/* @ Link hover effect - START */
 .link {
    text-decoration: none;
    position: relative;
@@ -33,9 +34,9 @@
    right: auto;
    width: 100%;
 }
-/* ? Link hover effect - END */
+/* @ Link hover effect - END */
 
-/* ! Gradient Animations on Text - START */
+/* # Gradient Animations on Text - START */
 
 .animateGradientText {
    background-image: linear-gradient(120deg, #ffffff, #000000, #ffffff, #ffffff);
@@ -58,9 +59,9 @@
    }
 }
 
-/* ! Gradient Animations on Text - END */
+/* # Gradient Animations on Text - END */
 
-/* !  Client Section Homepage */
+/* ~  Client Section Homepage */
 .gridWrapper {
    /* --auto-grid-min-size: 16rem; */
    --auto-grid-min-size: 12rem;
@@ -80,4 +81,8 @@
    max-width: 1170px;
    padding: 2rem 1rem;
 }
-/* !  Client Section Homepage End */
+/* ~  Client Section Homepage End */
+
+/* % Contact us Page */
+/* @media (max-width: 768px) {} */
+/* % Contact us Page End*/
