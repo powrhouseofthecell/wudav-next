@@ -4,7 +4,7 @@ import siteMetadata from '@/data/siteMetadata';
 import styles from '../css/general.module.css';
 
 const Careers = () => {
-   const imageSrc = '/static/images/careers.png';
+   const imageSrc = '/static/images/careers.svg';
    return (
       <>
          <PageSEO
@@ -15,7 +15,7 @@ const Careers = () => {
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             <span className={styles.animateGradientText}>Work with Wudav</span>
          </h1>
-         <div className="ml-auto mr-auto w-9/12">
+         <div className="">
             <p>
                Individuals with love for creativity are welcome. And if you hate your current job
                and wish to do something creative, we have our arms open for you.
