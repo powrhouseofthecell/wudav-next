@@ -1,6 +1,6 @@
 /* !Home page hero */
 .hero {
-   /* height: 85vh; */
+   height: 85vh;
 }
 /* !Home page hero End*/
 
@@ -83,6 +83,41 @@
 }
 /* ~  Client Section Homepage End */
 
-/* % Contact us Page */
-/* @media (max-width: 768px) {} */
-/* % Contact us Page End*/
+/* # Home page heading */
+.jj {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   font-size: 20vmin;
+   color: #fff;
+   line-height: 0.85;
+   text-transform: uppercase;
+   background-size: contain;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+   z-index: 10;
+}
+
+.jj + .jj {
+   -webkit-text-fill-color: red;
+   z-index: 20;
+   animation: meh 9s ease-out infinite alternate;
+}
+
+@keyframes meh {
+   from {
+      clip-path: polygon(100% 0, 100% 100%, 20% 100%, 61% 91%, 94% 47%);
+   }
+   50% {
+      clip-path: polygon(100% 0, 100% 100%, 20% 100%, 59% 52%, 74% 13%);
+   }
+   to {
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 85%, 87% 41%);
+   }
+}
+
+.jj span {
+   display: block;
+}
+/* # Home page heading End */
