@@ -12,13 +12,7 @@ const Contact = () => {
             description={siteMetadata.description}
          />
          <div>
-            <Image
-               layout="intrinsic"
-               width={1100}
-               height={300}
-               alt="Contact Imge"
-               src={imageSrc}
-            />
+            <Image layout="intrinsic" width={1100} height={300} alt="Contact Imge" src={imageSrc} />
             <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                <span className={styles.animateGradientText}>Contact Wudav</span>
             </h1>
