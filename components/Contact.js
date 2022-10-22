@@ -4,7 +4,7 @@ import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 
 const Contact = () => {
-   const imageSrc = '/static/images/contactus.svg';
+   const imageSrc = '/static/images/contact.svg';
    return (
       <>
          <PageSEO
@@ -16,7 +16,7 @@ const Contact = () => {
                layout="intrinsic"
                width={1100}
                height={300}
-               alt="Contact Image"
+               alt="Contact Imge"
                src={imageSrc}
             />
             <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
