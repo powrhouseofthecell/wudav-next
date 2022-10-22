@@ -13,7 +13,7 @@ const Home = () => {
          <section className="home">
             {/* Home Secion */}
             <div className={`${styles.hero}`}>
-               <h1 className="pt-36 text-center text-6xl">Hello Wudav</h1>
+               <h1 className="text-center text-6xl">Hello Wudav</h1>
             </div>
             {/* Home Secion End */}
 
