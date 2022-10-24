@@ -13,7 +13,41 @@ const Home = () => {
          <PageSEO title={`Home - ${siteMetadata.title}`} description={siteMetadata.description} />
          <section className="home">
             {/* Hero Secion */}
-            <div className={`${styles.hero}`}></div>
+            <div className={`${styles.hero}`}>
+               <div className={`${styles.panel}`}>
+                  <h1 className={`${styles.jj}`}>
+                     <span>Wudav Brand Stories</span>
+                     {/* <span></span> */}
+                  </h1>
+                  <h1 className={`${styles.jj}`}>
+                     <span>Wudav Brand Stories</span>
+                     {/* <span></span> */}
+                  </h1>
+               </div>
+               <div className={`${textStyles.content}`}>
+                  <div className={`${textStyles.content__container}`}>
+                     <ul className={`${textStyles.content__container__list}`}>
+                        <li className={`${textStyles.content__container__list__item}`}>
+                           Communicate
+                        </li>
+                        <li className={`${textStyles.content__container__list__item}`}>Connect</li>
+                        <li className={`${textStyles.content__container__list__item}`}>Showcase</li>
+                        <li className={`${textStyles.content__container__list__item}`}>
+                           Reach People
+                        </li>
+                        <li className={`${textStyles.content__container__list__item}`}>
+                           Differentiate
+                        </li>
+                        <li className={`${textStyles.content__container__list__item}`}>
+                           Build Brands
+                        </li>
+                        <li className={`${textStyles.content__container__list__item}`}>
+                           Visual Stories
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
             {/* Hero Secion End */}
 
             {/* Quote Secion */}
