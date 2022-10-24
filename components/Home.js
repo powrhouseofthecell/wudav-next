@@ -13,31 +13,7 @@ const Home = () => {
          <PageSEO title={`Home - ${siteMetadata.title}`} description={siteMetadata.description} />
          <section className="home">
             {/* Hero Secion */}
-            <div className={`${styles.hero}`}>
-               <div className={`${textStyles.content}`}>
-                  <div className={`${textStyles.content__container}`}>
-                     <ul className={`${textStyles.content__container__list}`}>
-                        <li className={`${textStyles.content__container__list__item}`}>
-                           Communicate
-                        </li>
-                        <li className={`${textStyles.content__container__list__item}`}>Connect</li>
-                        <li className={`${textStyles.content__container__list__item}`}>Showcase</li>
-                        <li className={`${textStyles.content__container__list__item}`}>
-                           Reach People
-                        </li>
-                        <li className={`${textStyles.content__container__list__item}`}>
-                           Differentiate
-                        </li>
-                        <li className={`${textStyles.content__container__list__item}`}>
-                           Build Brands
-                        </li>
-                        <li className={`${textStyles.content__container__list__item}`}>
-                           Visual Stories
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
+            <div className={`${styles.hero}`}></div>
             {/* Hero Secion End */}
 
             {/* Quote Secion */}
@@ -45,20 +21,12 @@ const Home = () => {
                <h2 className={`${styles.animateGradientText} my-8 text-5xl font-bold`}>
                   Wudav Brand Stories
                </h2>
-               <div className={`${styles.panel}`}>
-                  <h1 className={`${styles.jj}`}>
-                     <span>Wudav Brand Stories</span>
-                     {/* <span></span> */}
-                  </h1>
-                  <h1 className={`${styles.jj}`}>
-                     <span>Wudav Brand Stories</span>
-                     {/* <span></span> */}
-                  </h1>
-               </div>
                <figure>
                   <q className="text-2xl">Creativity is intelligence having fun!</q>
-                  <figcaption className="text-ml">ALBERT EINSTEIN</figcaption>
-                  <hr className="my-8" />
+                  <figcaption className={`text-ml`}>
+                     <span className={`${styles.highlight}`}>ALBERT EINSTEIN</span>{' '}
+                  </figcaption>
+                  <hr className={`${styles.hrule} my-8`} />
                </figure>
                <p className="my-8">
                   Embracing is a skill. That is what we help your audience learn - to embrace your
@@ -70,7 +38,7 @@ const Home = () => {
                   At Wudav Brand Stories , we help brands communicate and grow with aplomb. We do no
                   witchcraft; rather we work very hard to cut through the clutter.
                </p>
-               <hr className="my-8" />
+               <hr className={`${styles.hrule} my-8`} />
             </div>
             {/* Quote Secion */}
 
