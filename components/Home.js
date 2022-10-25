@@ -1,6 +1,7 @@
 import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import Card from '@/components/HomeCard';
+import Button from '@/components/ViewMoreButton';
 import Image from 'next/image';
 
 import styles from '../css/general.module.css';
@@ -122,6 +123,7 @@ const Home = () => {
                      href={'/work/taameir'}
                   />
                </div>
+               <Button />
             </div>
             <hr className={`${styles.hrule} my-8`} />
             {/* Work Section End*/}
