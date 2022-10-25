@@ -11,8 +11,8 @@ const ViewMoreButton = () => {
                </svg>
                See More
             </a> */}
-            <Link href="/work" className={`${styles.btn} ${styles.btn_2}`}>
-               See More
+            <Link href="/work">
+               <a className={`${styles.btn} ${styles.btn_2}`}>See More</a>
             </Link>
          </div>
       </section>

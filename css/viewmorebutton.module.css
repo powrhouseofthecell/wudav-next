@@ -110,7 +110,7 @@
 .btn_2:hover:before {
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden;
-   border-color: rgb(82, 52, 52);
+   border-color: gray;
    transition: width 350ms ease-in-out;
    width: 70%;
 }
