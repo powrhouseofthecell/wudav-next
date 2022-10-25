@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../css/viewmorebutton.module.css';
 
 const ViewMoreButton = () => {
@@ -10,9 +11,9 @@ const ViewMoreButton = () => {
                </svg>
                See More
             </a> */}
-            <a href="" className={`${styles.btn} ${styles.btn_2}`}>
+            <Link href="/work" className={`${styles.btn} ${styles.btn_2}`}>
                See More
-            </a>
+            </Link>
          </div>
       </section>
    );
