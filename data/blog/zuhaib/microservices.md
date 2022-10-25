@@ -1,6 +1,6 @@
 ---
 title: Microservice Architecture
-date: '2022-05-02'
+date: '2022-08-02'
 tags: ['microservices', 'zuhaib']
 draft: false
 summary: 'Mattis ante odio posuere velit. Suspendisse elementum ipsum augue, quis eleifend libero aliquet in. Fusce ut diam vitae est lacinia tristique. Donec finibus pellentesque ex, et ullamcorper sapien venenatis nec.'
