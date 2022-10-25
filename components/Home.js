@@ -1,11 +1,10 @@
 import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
+import Card from '@/components/HomeCard';
 import Image from 'next/image';
 
 import styles from '../css/general.module.css';
 import textStyles from '../css/text.module.css';
-
-const clientLogos = ['1', '2', '3', '4']; // Image Names for the client logos
 
 const Home = () => {
    return (
@@ -49,7 +48,6 @@ const Home = () => {
                </div>
             </div>
             {/* Hero Secion End */}
-
             {/* Quote Secion */}
             <div className="quote h-full text-center">
                <h2 className={`${styles.animateGradientText} my-8 text-5xl font-bold`}>
@@ -75,7 +73,58 @@ const Home = () => {
                <hr className={`${styles.hrule} my-8`} />
             </div>
             {/* Quote Secion */}
-
+            {/* Work Section */}
+            <h1 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
+               Our Work
+            </h1>
+            <div className={`py-12`}>
+               <div className={`${styles.containerHome} -m-4`}>
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Aarafh'}
+                     description={''}
+                     imgSrc={'/static/images/work/aarafh.jpg'}
+                     href={'/work/aarafh'}
+                  />
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Swift Homes'}
+                     description={''}
+                     imgSrc={'/static/images/work/swift-homes.jpg'}
+                     href={'/work/swift-homes'}
+                  />
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Punn'}
+                     description={''}
+                     imgSrc={'/static/images/work/punn.jpg'}
+                     href={'/work/punn'}
+                  />
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Fibr'}
+                     description={''}
+                     imgSrc={'/static/images/work/fibr.jpg'}
+                     href={'/work/fibr'}
+                  />
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Efruitmandi'}
+                     description={''}
+                     imgSrc={'/static/images/work/efruitmandi.jpg'}
+                     href={'/work/efruitmandi'}
+                  />
+                  <Card
+                     className={`${styles.containerHome_card}`}
+                     title={'Taameir'}
+                     description={''}
+                     imgSrc={'/static/images/work/taameir.jpg'}
+                     href={'/work/taameir'}
+                  />
+               </div>
+            </div>
+            <hr className={`${styles.hrule} my-8`} />
+            {/* Work Section End*/}
             {/* Client Section */}
             <section>
                <h1 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
