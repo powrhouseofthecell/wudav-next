@@ -19,8 +19,8 @@ export default function Home({ posts }) {
    return (
       <>
          <HomeSectionBeforeBlogs />
-
          <hr className={`${styles.hrule} my-8`} />
+         {/* Latest Blogs Section */}
          <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
                <h1
