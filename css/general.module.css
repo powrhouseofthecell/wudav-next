@@ -133,7 +133,8 @@
 }
 
 .jj + .jj {
-   -webkit-text-fill-color: red;
+   -webkit-text-fill-color: black;
+   /* -webkit-text-fill-color: red; */
    z-index: 20;
    animation: meh 9s ease-out infinite alternate;
 }
