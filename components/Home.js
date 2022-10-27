@@ -16,12 +16,15 @@ const Home = () => {
             <div className={`${styles.hero}`}>
                <div className={`${styles.panel}`}>
                   <h1 className={`${styles.jj}`}>
-                     <span>Wudav Brand Stories</span>
+                     <span>Wudav</span>
+                     <span>Brand</span>
+                     <span>Stories</span>
                      {/* <span></span> */}
                   </h1>
                   <h1 className={`${styles.jj}`}>
-                     <span>Wudav Brand Stories</span>
-                     {/* <span></span> */}
+                     <span>Wudav</span>
+                     <span>Brand</span>
+                     <span>Stories</span>
                   </h1>
                </div>
                <div className={`${textStyles.content}`}>
