@@ -3,15 +3,24 @@ import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import styles from '../css/general.module.css';
 
+// import { useTheme } from 'next-themes';
+
 const Careers = () => {
-   const imageSrc = '/static/images/careers.svg';
+   let imageSrc = '/static/images/careers.svg';
+   // let imageSrc = '/static/images/careersLight.svg';
+   // const { theme, setTheme, resolvedTheme } = useTheme();
+   // console.log(theme);
+
+   // if (theme === 'light') {
+   //    imageSrc = '/static/images/careersDark.svg';
+   // }
    return (
       <>
          <PageSEO
             title={`Careers - ${siteMetadata.title}`}
             description={`${siteMetadata.title} blogs about`}
          />
-         <Image layout="intrinsic" width={1100} height={300} alt="Contact Image" src={imageSrc} />
+         <Image layout="intrinsic" width={1100} height={300} alt="Career Image" src={imageSrc} />
          <h1 className="my-14 text-center text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             <span className={styles.animateGradientText}>Work with Wudav</span>
          </h1>

@@ -3,8 +3,18 @@ import styles from '../css/general.module.css';
 import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 
+// import { useTheme } from 'next-themes';
+
 const Contact = () => {
-   const imageSrc = '/static/images/contact.svg';
+   let imageSrc = '/static/images/contact.svg';
+   // let imageSrc = '/static/images/contactLight.svg';
+   // const { theme, setTheme, resolvedTheme } = useTheme();
+   // console.log(theme);
+
+   // if (theme === 'light') {
+   //    imageSrc = '/static/images/contactDark.svg';
+   // }
+
    return (
       <>
          <PageSEO
