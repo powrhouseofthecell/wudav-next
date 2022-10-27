@@ -3,6 +3,8 @@ import siteMetadata from '@/data/siteMetadata';
 import ListLayout from '@/layouts/ListLayout';
 import { PageSEO } from '@/components/SEO';
 
+// ~ https://wudav.in/cms/wp-json/cr/v1/posts
+
 export const POSTS_PER_PAGE = 5;
 
 export async function getStaticProps() {
