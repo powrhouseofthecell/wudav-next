@@ -92,6 +92,7 @@ export default function Home({ posts }) {
                </Link>
             </div>
          )}
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }
