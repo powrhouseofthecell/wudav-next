@@ -176,15 +176,3 @@
    width: 33%;
    height: 100px;
 }
-
-@media (min-width: 768px) {
-   .card_oneThird {
-      width: 33.333333%;
-   }
-}
-
-@media (min-width: 768px) {
-   .card_oneTwo {
-      width: 50%;
-   }
-}
