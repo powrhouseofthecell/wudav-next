@@ -21,11 +21,11 @@ const Home = () => {
                      <span>Stories</span>
                      {/* <span></span> */}
                   </h1>
-                  <h1 className={`${styles.jj}`}>
+                  <h2 className={`${styles.jj}`}>
                      <span>Wudav</span>
                      <span>Brand</span>
                      <span>Stories</span>
-                  </h1>
+                  </h2>
                </div>
                <div className={`${textStyles.content}`}>
                   <div className={`${textStyles.content__container}`}>
