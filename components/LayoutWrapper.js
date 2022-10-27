@@ -6,8 +6,16 @@ import SectionContainer from './SectionContainer';
 import Footer from './Footer';
 import MobileNav from './MobileNav';
 import ThemeSwitch from './ThemeSwitch';
+// import { useTheme } from 'next-themes';
 
 const LayoutWrapper = ({ children }) => {
+   // let imageSrc = '/static/images/logoLight.svg';
+   // const { theme, setTheme, resolvedTheme } = useTheme();
+   // console.log(theme);
+
+   // if (theme === 'light') {
+   //    imageSrc = '/static/images/logoDark.svg';
+   // }
    return (
       <SectionContainer>
          <div className="flex h-screen flex-col justify-between">
