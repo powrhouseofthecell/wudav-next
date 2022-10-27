@@ -102,17 +102,25 @@
 /* # Horizontal Rule End */
 
 .highlight {
-   background: rgba(235, 255, 51, 0.7);
+   /* background: rgba(235, 255, 51, 0.7);
    background: linear-gradient(
       305deg,
       rgba(184, 122, 65, 0.6) 0%,
       rgba(165, 94, 135, 0.4) 79%,
       rgba(88, 107, 114, 0.8) 89%
+   ); */
+   background: rgba(119, 121, 105, 0.7);
+   background: linear-gradient(
+      305deg,
+      rgba(49, 47, 46, 0.6) 0%,
+      rgba(116, 114, 115, 0.4) 79%,
+      rgba(99, 101, 102, 0.8) 89%
    );
-   border-radius: 52px 12px 30px 8px;
+   border-radius: 52px 12px 52px 8px;
    width: 3.5rem;
    margin: auto auto;
    margin-top: 1rem;
+   padding: 0.2rem;
 }
 
 /* # Home page heading */
