@@ -81,7 +81,7 @@ const Home = () => {
             <h1 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
                Our Work
             </h1>
-            <div className={`py-12`}>
+            <div className={``}>
                <div className={`${styles.containerHome} -m-4`}>
                   <Card
                      className={`${styles.containerHome_card}`}
