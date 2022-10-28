@@ -1,21 +1,18 @@
 import siteMetadata from '@/data/siteMetadata';
 import headerNavLinks from '@/data/headerNavLinks';
-import Logo from '@/data/logo.svg';
+import LogoLight from '@/data/logolight.svg';
+import LogoDark from '@/data/logodark.svg';
 import Link from './Link';
 import SectionContainer from './SectionContainer';
 import Footer from './Footer';
 import MobileNav from './MobileNav';
 import ThemeSwitch from './ThemeSwitch';
-// import { useTheme } from 'next-themes';
+import { useTheme } from 'next-themes';
+import styles from '../css/general.module.css';
 
 const LayoutWrapper = ({ children }) => {
-   // let imageSrc = '/static/images/logoLight.svg';
-   // const { theme, setTheme, resolvedTheme } = useTheme();
-   // console.log(theme);
+   const { theme, setTheme, resolvedTheme } = useTheme();
 
-   // if (theme === 'light') {
-   //    imageSrc = '/static/images/logoDark.svg';
-   // }
    return (
       <SectionContainer>
          <div className="flex h-screen flex-col justify-between">
@@ -24,7 +21,7 @@ const LayoutWrapper = ({ children }) => {
                   <Link href="/" aria-label={siteMetadata.headerTitle}>
                      <div className="flex items-center justify-between">
                         <div className="mr-3">
-                           <Logo />
+                           {theme === 'light' ? <LogoDark /> : <LogoLight />}
                         </div>
                         {typeof siteMetadata.headerTitle === 'string' ? (
                            <div className="hidden h-6 text-2xl font-semibold sm:block">
