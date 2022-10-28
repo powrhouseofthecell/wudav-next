@@ -3,17 +3,17 @@ import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import styles from '../css/general.module.css';
 
-// import { useTheme } from 'next-themes';
+import { useTheme } from 'next-themes';
 
 const Careers = () => {
-   let imageSrc = '/static/images/careers.svg';
-   // let imageSrc = '/static/images/careersLight.svg';
-   // const { theme, setTheme, resolvedTheme } = useTheme();
-   // console.log(theme);
+   const { theme, setTheme, resolvedTheme } = useTheme();
+   let imageSrc;
+   if (theme === 'light') {
+      imageSrc = '/static/images/careerdark.svg';
+   } else {
+      imageSrc = '/static/images/careerlight.svg';
+   }
 
-   // if (theme === 'light') {
-   //    imageSrc = '/static/images/careersDark.svg';
-   // }
    return (
       <>
          <PageSEO
