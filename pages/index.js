@@ -23,9 +23,9 @@ export default function Home({ posts }) {
          {/* Latest Blogs Section */}
          <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-               <h1 className={`${styles.animateGradientText} h-16 text-center text-5xl font-bold`}>
+               <h2 className={`${styles.animateGradientText} h-16 text-center text-5xl font-bold`}>
                   Latest Blogs
-               </h1>
+               </h2>
             </div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                {!posts.length && 'No posts found.'}

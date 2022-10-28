@@ -78,9 +78,9 @@ const Home = () => {
             </div>
             {/* Quote Secion */}
             {/* Work Section */}
-            <h1 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
+            <h2 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
                Our Work
-            </h1>
+            </h2>
             <div className={``}>
                <div className={`${styles.containerHome} -m-4`}>
                   <Card
@@ -132,9 +132,9 @@ const Home = () => {
             {/* Work Section End*/}
             {/* Client Section */}
             <section>
-               <h1 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
+               <h2 className={`${styles.animateGradientText} my-10 text-center text-5xl font-bold`}>
                   Our Clients
-               </h1>
+               </h2>
                <div className={`${styles.mainContainer}`}>
                   <ul className={`${styles.gridWrapper}`}>
                      <li>
