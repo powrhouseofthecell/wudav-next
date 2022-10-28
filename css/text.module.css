@@ -112,5 +112,6 @@
       animation-name: changeMobile;
       animation-duration: 10s;
       animation-iteration-count: infinite;
+      font-size: 0.8em;
    }
 }
