@@ -41,7 +41,7 @@
 .animateGradientText {
    background-image: linear-gradient(120deg, #ffffff, #000000, #ffffff, #ffffff);
    background-size: 200%;
-   height: 1.1em;
+   /* height: 1.1em; */
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
    background-clip: text;
