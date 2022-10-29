@@ -39,37 +39,37 @@ export default function Footer() {
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">Home</a>
+                              <Link href="/">Home</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_taxonomy} ${styles.menu_item_object_category}`}
                            >
-                              <a href="#">Work</a>
+                              <Link href="/work">Work</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">Expertise</a>
+                              <Link href="/expertise">Expertise</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">Blog</a>
+                              <Link href="/blog">Blog</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">Careers</a>
+                              <Link href="/careers">Careers</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">Contact</a>
+                              <Link href="/contact">Contact</Link>
                            </li>
                            <li
                               className={`${styles.menu_item} ${styles.menu_item_type_post_type} ${styles.menu_item_object_page}`}
                            >
-                              <a href="#">About</a>
+                              <Link href="/about">About</Link>
                            </li>
                         </ul>
                      </div>
