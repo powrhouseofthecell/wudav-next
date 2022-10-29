@@ -1,5 +1,6 @@
 import { MDXLayoutRenderer } from '@/components/MDXComponents';
 import { getFileBySlug } from '@/lib/mdx';
+import styles from '../css/general.module.css';
 
 const DEFAULT_LAYOUT = 'AuthorLayout';
 
@@ -18,6 +19,8 @@ export default function About({ authorDetails }) {
             mdxSource={mdxSource}
             frontMatter={frontMatter}
          />
+
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }

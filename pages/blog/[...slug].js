@@ -3,6 +3,7 @@ import PageTitle from '@/components/PageTitle';
 import generateRss from '@/lib/generate-rss';
 import { MDXLayoutRenderer } from '@/components/MDXComponents';
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx';
+import styles from '../../css/general.module.css';
 
 const DEFAULT_LAYOUT = 'PostLayout';
 
@@ -65,6 +66,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
                </PageTitle>
             </div>
          )}
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }

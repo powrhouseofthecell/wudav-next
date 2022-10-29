@@ -32,6 +32,7 @@ export default function Projects() {
                </div>
             </div>
          </div>
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }

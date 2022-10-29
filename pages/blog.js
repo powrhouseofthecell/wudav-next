@@ -2,6 +2,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx';
 import siteMetadata from '@/data/siteMetadata';
 import ListLayout from '@/layouts/ListLayout';
 import { PageSEO } from '@/components/SEO';
+import styles from '../css/general.module.css';
 
 // ~ https://wudav.in/cms/wp-json/cr/v1/posts
 
@@ -28,6 +29,8 @@ export default function Blog({ posts, initialDisplayPosts, pagination }) {
             pagination={pagination}
             title="All Blogs"
          />
+
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }

@@ -1,6 +1,7 @@
 import Link from '@/components/Link';
 import { PageSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
+import styles from '../css/general.module.css';
 
 export default function FourZeroFour() {
    return (
@@ -26,6 +27,8 @@ export default function FourZeroFour() {
                </Link>
             </div>
          </div>
+
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 }

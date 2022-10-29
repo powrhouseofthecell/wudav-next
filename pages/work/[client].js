@@ -1,10 +1,12 @@
 import Client from '@/components/Client';
 import projectsData from '@/data/projectsData';
+import styles from '../../css/general.module.css';
 
 const ClientPage = (fetchedClient) => {
    return (
       <>
          <Client fetchedClient={fetchedClient} />
+         <hr className={`${styles.hrule} my-8`} />
       </>
    );
 };
