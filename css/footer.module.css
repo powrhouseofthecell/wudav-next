@@ -1,0 +1,248 @@
+.footer_wave_path {
+   fill: #fffff2;
+}
+
+.footer_content {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1230px;
+   padding: 40px 15px 0px 15px;
+   padding-bottom: 150px !important;
+   position: relative;
+}
+
+.footer_content_column {
+   box-sizing: border-box;
+   float: left;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 100%;
+}
+
+.footer_content_column ul li a {
+   text-decoration: none;
+}
+
+.footer_logo_link {
+   display: inline-block;
+}
+.footer_menu {
+   margin-top: 30px;
+}
+
+.footer_menu_name {
+   font-size: 15px;
+   font-weight: 900;
+   letter-spacing: 0.1em;
+   line-height: 18px;
+   margin-bottom: 0;
+   margin-top: 0;
+   text-transform: uppercase;
+}
+.footer-menu_list {
+   list-style: none;
+   margin-bottom: 0;
+   margin-top: 10px;
+   padding-left: 0;
+}
+.footer_menu_list li {
+   margin-top: 5px;
+}
+
+.footer_call_to_action_description {
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.footer_call_to_action_button:hover {
+   color: #00bef0;
+}
+.button:last-of-type {
+   margin-right: 0;
+}
+.footer_call_to_action_button {
+   border-radius: 21px;
+   color: #fffff2;
+   display: inline-block;
+   font-size: 11px;
+   font-weight: 900;
+   letter-spacing: 0.1em;
+   line-height: 18px;
+   padding: 12px 30px;
+   margin: 0 10px 10px 0;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: background-color 0.2s;
+   cursor: pointer;
+   position: relative;
+}
+.footer_call_to_action {
+   margin-top: 30px;
+}
+.footer_call_to_action_title {
+   font-size: 14px;
+   font-weight: 900;
+   letter-spacing: 0.1em;
+   line-height: 18px;
+   margin-bottom: 0;
+   margin-top: 0;
+   text-transform: uppercase;
+}
+.footer_call_to_action_link_wrapper {
+   margin-bottom: 0;
+   margin-top: 10px;
+   text-decoration: none;
+}
+.footer_call_to_action_link_wrapper a {
+   text-decoration: none;
+}
+
+.footLinkHead {
+   color: transparent;
+}
+
+.footer_social_links {
+   position: relative;
+   bottom: 0;
+   right: 0;
+   height: 54px;
+   width: 236px !important;
+}
+
+.footer_social_amoeba_svg {
+   /* height: 54px;
+   left: 0;
+   display: block;
+   position: absolute;
+   top: 0;
+   width: 236px; */
+}
+
+.footer_social_amoeba_path {
+   fill: rgb(46, 43, 43);
+}
+
+.footer_social_link.linkedin {
+   height: 26px;
+   left: 3px;
+   top: 11px;
+   width: 46px;
+}
+
+.footer_social_link {
+   display: block;
+   padding: 10px;
+   position: absolute;
+}
+
+.hidden_link_text {
+   position: absolute;
+   clip: rect(1px 1px 1px 1px);
+   clip: rect(1px, 1px, 1px, 1px);
+   -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+   clip-path: inset(0px 0px 99.9% 99.9%);
+   overflow: hidden;
+   height: 1px;
+   width: 1px;
+   padding: 0;
+   border: 0;
+   top: 50%;
+}
+
+.footer_social_icon_svg {
+   display: block;
+}
+
+.footer_social_icon_path {
+   fill: #fffff2;
+   transition: fill 0.2s;
+}
+
+.footer_social_link.twitter {
+   height: 28px;
+   left: 62px;
+   top: 3px;
+   width: 50px;
+}
+
+.footer_social_link.youtube {
+   height: 24px;
+   left: 123px;
+   top: 12px;
+   width: 45px;
+}
+
+.footer_social_link.github {
+   height: 34px;
+   left: 171px;
+   top: 7px;
+   width: 55px;
+}
+
+.footer_icon {
+   position: absolute;
+   bottom: 0;
+}
+
+.footer_copyright_link {
+   position: absolute;
+   bottom: 0;
+}
+
+/* Media Query For different screens */
+@media (min-width: 320px) and (max-width: 479px) {
+   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+   .footer_content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 1050px;
+      position: relative;
+   }
+}
+@media (min-width: 480px) and (max-width: 599px) {
+   /* smartphones, Android phones, landscape iPhone */
+   .footer_content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 1050px;
+      position: relative;
+   }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+   .footer_content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 1050px;
+      position: relative;
+   }
+}
+@media (min-width: 801px) {
+   /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+   /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+   /* hi-res laptops and desktops */
+}
+
+@media (min-width: 760px) {
+   .footer_content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 450px;
+      position: relative;
+   }
+
+   .footer_wave_svg {
+      height: 50px;
+   }
+
+   .footer_content_column {
+      width: 24.99%;
+   }
+}
