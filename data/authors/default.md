@@ -5,7 +5,7 @@ occupation: Building Brands
 company: Wudav Brand Stories
 email: work@wudav.com
 twitter: https://twitter.com/Wudavbrands
-linkedin: https://www.linkedin.com/company/wudavbrands
+linkedin: https://www.linkedin.com/in/company/wudavbrands
 github: https://github.com/wudav-dev
 ---
 
