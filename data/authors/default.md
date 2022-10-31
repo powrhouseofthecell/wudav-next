@@ -4,8 +4,8 @@ avatar: /static/images/avatar.png
 occupation: Building Brands
 company: Wudav Brand Stories
 email: work@wudav.com
-twitter: https://twitter.com/Wudav
-linkedin: https://www.linkedin.com/wudav
+twitter: https://twitter.com/Wudavbrands
+linkedin: https://www.linkedin.com/company/wudavbrands
 github: https://github.com/wudav-dev
 ---
 
